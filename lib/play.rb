@@ -13,10 +13,10 @@ end
 
 def move(board, index, current_player = "X")
   board[index] = current_player
-  if current_player == 'X'
-    current_player = 'O'
+  if current_player == "X"
+    current_player = "O"
   else
-    current_player = 'X'
+    current_player = "X"
   end
 end
 
